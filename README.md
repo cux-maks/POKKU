@@ -25,3 +25,13 @@
 ### Design
 
 <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+
+### 프로젝트 실행 방법
+
+```python
+  1. /client 디렉토리로 이동
+  2. "npm run build" 명령어 실행
+  3. /server 디렉토리로 이동
+  4. "npm start app.js" 명령어 실행
+  5. chrome 또는 whale에서 "localhost:5000"에 접속
+```
