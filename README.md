@@ -6,7 +6,7 @@
 
 |                 조병하                  |                 손현지                  |                 이연경                  |                 김소민                  |
 | :-------------------------------------: | :-------------------------------------: | :-------------------------------------: | :-------------------------------------: |
-| [cux-maks](https://github.com/cux-maks) | [SonHJ622](https://github.com/SonHJ622) | [LeeYeonK](https://github.com/LeeYeonK) | []() |
+| [cux-maks](https://github.com/cux-maks) | [SonHJ622](https://github.com/SonHJ622) | [LeeYeonK](https://github.com/LeeYeonK) | [KimSoMin](https://github.com/LUNA-KK) |
 
 ## 기술스택
 
