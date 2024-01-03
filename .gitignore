@@ -4,5 +4,8 @@
 ./package-lock.json
 ./package.json
 
+./server/package-lock.json
+./server/package.json
+
 ./client/package-lock.json
 ./client/package.json
