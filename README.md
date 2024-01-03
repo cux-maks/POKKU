@@ -20,7 +20,7 @@
 
 ### Back-End
 
-<img src="https://img.shields.io/badge/MariaDB-#003545?style=for-the-badge&logo=MariaDB&logoColor=white"> <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"> <img src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white">
+<img src="https://img.shields.io/badge/mariadb-#003545?style=for-the-badge&logo=mariadb&logoColor=white"> <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"> <img src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white">
 
 ### Design
 
