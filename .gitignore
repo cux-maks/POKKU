@@ -1,2 +1,8 @@
 ./server/node_modules/*
 ./server/client/node_modules/*
+
+./package-lock.json
+./package.json
+
+./client/package-lock.json
+./client/package.json
