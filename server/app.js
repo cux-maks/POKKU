@@ -7,6 +7,7 @@ var logger = require("morgan");
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 var userInfoRouter = require("./routes/user_info");
+var userInfoGithubRouter = require("./routes/user_info_github");
 
 var app = express();
 
@@ -28,6 +29,7 @@ app.use(express.static(path.join(__dirname, "./client/build")));
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 app.use("/user_info", userInfoRouter);
+app.use("/user_info_github", userInfoGithubRouter);
 
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
