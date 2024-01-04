@@ -17,7 +17,7 @@ router.post('/', function(req, res) {
 
 // select all user_info_github
 router.get('/', function(req, res) {
-    maria.query('', function(err, rows, fields) {
+    maria.query('select * from user_info_github', function(err, rows, fields) {
         if(!err){
             res.send(rows);
         }else{
