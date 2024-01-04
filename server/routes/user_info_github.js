@@ -53,7 +53,7 @@ router.put('/', function(req, res) {
 
 // delete by id user_info_github
 router.delete('/', function(req, res) {
-    maria.query(``, function(err, rows, fields) {
+    maria.query(`delete from user_info_github where user_id = '${req.body.user_id}'`, function(err, rows, fields) {
         if(!err){
             res.send(rows);
         }else{
