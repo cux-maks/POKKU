@@ -8,6 +8,7 @@ var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 var userInfoRouter = require("./routes/user_info");
 var userInfoGithubRouter = require("./routes/user_info_github");
+var userInfoBlogRouter = require("./routes/user_info_blog");
 
 var app = express();
 
@@ -30,6 +31,7 @@ app.use("/", indexRouter);
 app.use("/users", usersRouter);
 app.use("/user_info", userInfoRouter);
 app.use("/user_info_github", userInfoGithubRouter);
+app.use("/user_info_blog", userInfoBlogRouter);
 
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
