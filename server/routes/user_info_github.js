@@ -5,7 +5,7 @@ const maria = require('./maria');
 
 // create user_info_github
 router.post('/', function(req, res) {
-    maria.query(``, function(err, rows, fields) {
+    maria.query(`insert into user_info_github values('${req.body.user_id}', '${req.body.user_github}')`, function(err, rows, fields) {
         if(!err){
             res.send(rows);
         }else{
