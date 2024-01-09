@@ -9,12 +9,13 @@ var usersRouter = require("./routes/users");
 var userInfoRouter = require("./routes/user_info");
 var userInfoGithubRouter = require("./routes/user_info_github");
 var userInfoBlogRouter = require("./routes/user_info_blog");
+var userInfoInstagramRouter = require("./routes/user_info_instagram");
 
 var app = express();
 
 const PORT = process.env.PORT || 5000;
 
-const maria = require('./routes/maria');
+const maria = require("./routes/maria");
 maria.connect();
 
 // view engine setup
@@ -32,6 +33,7 @@ app.use("/users", usersRouter);
 app.use("/user_info", userInfoRouter);
 app.use("/user_info_github", userInfoGithubRouter);
 app.use("/user_info_blog", userInfoBlogRouter);
+app.use("/user_info_instagram", userInfoInstagramRouter);
 
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
