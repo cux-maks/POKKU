@@ -4,21 +4,15 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <h1>연경아 이거 보이니?</h1>
+      <div className="title">
+        <div className="title1">
+          <h1>내 포트폴리오</h1>
+        </div>
+        <div className="title2">
+          <h1 className="POKKU">POKKU</h1>
+          <h1>에서</h1>
+        </div>
+      </div>
     </div>
   );
 }
