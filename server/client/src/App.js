@@ -3,23 +3,33 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <h1>연경아 이거 보이니?</h1>
-    </div>
+    <body>
+      <header>
+        <h1>
+          {/* <img src="pokku" width="" height=""> */}
+          <a href="">POKKU</a>
+        </h1>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <a href="">ABOUT</a>
+          </li>
+          <li>
+            <a href="">SKILLS</a>
+          </li>
+          <li>
+            <a href="">ARCHIVING</a>
+          </li>
+          <li>
+            <a href="">PROJECT</a>
+          </li>
+          <li>
+            <a href="">CAREER</a>
+          </li>
+        </ul>
+      </nav>
+    </body>
   );
 }
 
